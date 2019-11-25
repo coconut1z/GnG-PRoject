@@ -1,0 +1,17 @@
+{
+    "name": "jp.keijiro.osc-jack.Editor",
+    "references": [
+        "jp.keijiro.osc-jack.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

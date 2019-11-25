@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4494311433211860775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4494311433211860773}
+  - component: {fileID: 4494311433211860772}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4494311433211860773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4494311433211860775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4494311433211860772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4494311433211860775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fafbd8dac357f154fa33f2f90106d3eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipInput: {fileID: 0}
+  mainMenu: {fileID: 0}
+  settingsMenu: {fileID: 0}
+  basicSettings: {fileID: 0}
+  advSettings: {fileID: 0}
+  basicButton: {fileID: 0}
+  advancedButton: {fileID: 0}
+  started: 0
+  tooltip: {fileID: 0}
+  selector: {fileID: 0}
+  MK: {fileID: 0}
+  controller: {fileID: 0}
+  joystick: {fileID: 0}
+  OSC: {fileID: 0}
+  MKpitch: {fileID: 0}
+  MKyaw: {fileID: 0}
+  MKroll: {fileID: 0}
+  controllerPitch: {fileID: 0}
+  controllerYaw: {fileID: 0}
+  controllerRoll: {fileID: 0}
+  joystickPitch: {fileID: 0}
+  joystickYaw: {fileID: 0}
+  joystickRoll: {fileID: 0}
+  OSCpitch: {fileID: 0}
+  OSCyaw: {fileID: 0}
+  OSCroll: {fileID: 0}
+  MKpitchUp: {fileID: 0}
+  MKpitchDown: {fileID: 0}
+  MKrollLeft: {fileID: 0}
+  MKrollRight: {fileID: 0}
+  MKyawLeft: {fileID: 0}
+  MKyawRight: {fileID: 0}
+  MKthrottleAccel: {fileID: 0}
+  MKthrottleDecel: {fileID: 0}
+  controllerAccel: {fileID: 0}
+  controllerDecel: {fileID: 0}
+  joystickAccel: {fileID: 0}
+  joystickDecel: {fileID: 0}
+  MKpitchT: {fileID: 0}
+  MKyawT: {fileID: 0}
+  MKrollT: {fileID: 0}
+  controllerPitchT: {fileID: 0}
+  controllerYawT: {fileID: 0}
+  controllerRollT: {fileID: 0}
+  joystickPitchT: {fileID: 0}
+  joystickYawT: {fileID: 0}
+  joystickRollT: {fileID: 0}
+  OSCpitchT: {fileID: 0}
+  OSCrollT: {fileID: 0}
+  selectorValue: 0
+  nothinglol: 0
+  AdvMKpitch: {fileID: 0}
+  AdvMKyaw: {fileID: 0}
+  AdvMKroll: {fileID: 0}
+  AdvConrPitch: {fileID: 0}
+  AdvConYaw: {fileID: 0}
+  AdvConRoll: {fileID: 0}
+  AdvConThrottle: {fileID: 0}
+  AdvJoystickPitch: {fileID: 0}
+  AdvJoystickYaw: {fileID: 0}
+  AdvJoystickRoll: {fileID: 0}
+  AdvOSCpitch: {fileID: 0}
+  AdvOSCyaw: {fileID: 0}
+  AdvOSCroll: {fileID: 0}
+  AdvMKpitchUp: {fileID: 0}
+  AdvMKpitchDown: {fileID: 0}
+  AdvMKyawLeft: {fileID: 0}
+  AdvMKyawRight: {fileID: 0}
+  AdvMKrollLeft: {fileID: 0}
+  AdvMKrollRight: {fileID: 0}
+  AdvMKthrottleAccel: {fileID: 0}
+  AdvMKthrottleDecel: {fileID: 0}
+  AdvConPitchUp: {fileID: 0}
+  AdvConrPitchDown: {fileID: 0}
+  AdvConYawLeft: {fileID: 0}
+  AdvConYawRight: {fileID: 0}
+  AdvConRollLeft: {fileID: 0}
+  AdvConRollRight: {fileID: 0}
+  AdvConAccel: {fileID: 0}
+  AdvConDecel: {fileID: 0}
+  AdvJoystickAccel: {fileID: 0}
+  AdvJoystickDecel: {fileID: 0}
+  AdvOSCyawLeft: {fileID: 0}
+  AdvOSCyawRight: {fileID: 0}
+  AdvOSCrollLeft: {fileID: 0}
+  AdvOSCrollRight: {fileID: 0}
+  AdvMKpitchT: {fileID: 0}
+  AdvMKyawT: {fileID: 0}
+  AdvMKrollT: {fileID: 0}
+  AdvConPitchT: {fileID: 0}
+  AdvConYawT: {fileID: 0}
+  AdvConRollT: {fileID: 0}
+  AdvJoystickPitchT: {fileID: 0}
+  AdvJoystickYawT: {fileID: 0}
+  AdvJoystickRollT: {fileID: 0}
+  AdvOSCpitchT: {fileID: 0}
+  AdvOSCyawT: {fileID: 0}
+  AdvOSCrollT: {fileID: 0}
