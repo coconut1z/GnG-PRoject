@@ -1,2 +1,2 @@
-# GnG PRoject
+# GnG Project
  
